@@ -16,7 +16,7 @@
   - ***`UPDATED`*** Click "Action" on the menu, click your favoriate device on the left side, then go to the right side "Run workflow" button, click and on the dropdown menu, click the green button "Run workflow", that's it!!
   - The build starts automatically. Progress can be viewed on the Actions page.
   - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
-  - Default Web Admin IP: `192.168.5.1`, username `root`, no login password
+  - Default Web Admin IP: `192.168.1.1`, username `root`, no login password
 
 **3. Sync Code**
   - Uncomment 'push-branches-master' 3 lines under **`On`** section and commit changes to let the script sync the code once for you.
