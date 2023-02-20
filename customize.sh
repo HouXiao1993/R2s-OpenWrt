@@ -15,7 +15,7 @@
 #rm openwrt/package/lean/luci-theme-argon -rf
 
 # enable r2s oled plugin by default
-sed -i "s/enable '0'/enable '1'/" `find package/ -follow -type f -path '*/luci-app-oled/root/etc/config/oled'`
+#sed -i "s/enable '0'/enable '1'/" `find package/ -follow -type f -path '*/luci-app-oled/root/etc/config/oled'`
 
 # change the voltage value for over-clock stablization
 #config_file_cpufreq=`find package/ -follow -type f -path '*/luci-app-cpufreq/root/etc/config/cpufreq'`
