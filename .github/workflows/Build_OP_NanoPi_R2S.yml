@@ -18,10 +18,10 @@ jobs:
 
     steps:
       - name: Show system
-          run: |
-            echo -e "Total CPU cores\t: $(nproc)"
-            cat /proc/cpuinfo | grep 'model name'
-            ulimit -a
+        run: |
+          echo -e "Total CPU cores\t: $(nproc)"
+          cat /proc/cpuinfo | grep 'model name'
+          ulimit -a
 
       - name: Space cleanup and Initialization environment
         env:
